@@ -34,7 +34,6 @@ win = 0
 loss = 0
 
 
-
 # GUI LAYOUT
 window = Tk()
 window.geometry('400x200')
@@ -52,9 +51,6 @@ lossButton = Button(window, text='LOSS', command=add_loss, height=5, width=17, b
 lossButton.pack(side=RIGHT)
 resetButton = Button(window, text='RESET', bg='blue', command=reset, height=5, font=20)
 resetButton.pack(side=BOTTOM, fill=X)
-
-
-
 
 
 window.mainloop()
